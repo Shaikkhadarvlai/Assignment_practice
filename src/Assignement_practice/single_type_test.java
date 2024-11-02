@@ -11,12 +11,16 @@ public class single_type_test {
         
         // Take the group of letters as input
         System.out.println("Enter a group of letters: ");
-        String input = scanner.nextLine().toLowerCase();  // Convert input to lowercase
+        
+       // Convert input to lowercase
+        String input = scanner.nextLine().toLowerCase();  
         
         // Count vowels in a simplified single loop
         int vowelCount = 0;
-        for (char ch : input.toCharArray()) {
-            if ("aeiou".indexOf(ch) != -1) {
+        for (char ch : input.toCharArray())
+        {
+            if ("aeiou".indexOf(ch) != -1) 
+            {
                 vowelCount++;
             }
         }
@@ -25,8 +29,14 @@ public class single_type_test {
         System.out.println("Number of vowels: " + vowelCount);
         
         // Close the scanner
-        scanner.close();
+       scanner.close();
 		
+	
+//        for (char c = 'A'; c <= 'Z'; c++) 
+//        {
+//            System.out.print(c + " ");
+//        }
+	
+	
 	}
-
 }

@@ -1,15 +1,13 @@
 package Assignement_practice;
 
-public class Countingnumbers_and_charecters {
+public class Test_A_to_Z_print {
 
 	public static void main(String[] args)
-{
+	{
 		for (char c = 'A'; c <= 'Z'; c++) 
-	        {
-	            System.out.print(c + " ");
-	        }
-		
-
+        {
+            System.out.print(c + " ");
+        }
 	}
 
 }
