@@ -127,5 +127,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/selenium-server-4.14.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
