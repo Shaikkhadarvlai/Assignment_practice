@@ -1,5 +1,6 @@
 package Assignement_practice;
 
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -8,13 +9,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class amazon_AI {
+public class amazon_AI 
+{
 
 	public static void main(String[] args) 
 	{
-		  // Initialize the WebDriver
+		// Initialize the WebDriver
         WebDriver driver = new ChromeDriver();
 
         // Navigate to the Amazon India website
@@ -65,8 +69,9 @@ public class amazon_AI {
         WebElement addToCartButton = driver.findElement(By.xpath("//input[@id='add-to-cart-button']"));
         addToCartButton.click();
 
+              
         // Close the driver
-        //driver.quit();
+        driver.quit();
     }
 
     // Provided method to select an option from a dropdown based on provided value
