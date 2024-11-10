@@ -7,7 +7,7 @@ public class String_Equalpoint_use
 
 	public static void main(String[] args) 
 	{
-		 Scanner scanner = new Scanner(System.in); 
+		    Scanner scanner = new Scanner(System.in); 
 
 	        // Taking input from the user
 	        System.out.print("Enter 'pass' or 'fail': ");
