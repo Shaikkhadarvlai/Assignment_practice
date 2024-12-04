@@ -5,8 +5,9 @@ public class if_else_Multiple_statmets
 
 	public static void main(String[] args) 
 	{
-		 int marks = 35; // You can change this value to test different scenarios
-
+		 
+		 // You can change this value to test different scenarios
+		    int marks =25;
 	        if (marks >= 85) {
 	            System.out.println("Excellent");
 	        } else if (marks >= 60) {
